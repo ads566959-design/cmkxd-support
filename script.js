@@ -1,4 +1,4 @@
-const API = "https://script.google.com/macros/s/AKfycbxfkMdbKMro64P6CeIFeMZ7MUfL8Jk9gzT96gkPA-3pkYU79FMn0hb1Selr-fnziBkt/exec";
+https API = "https://script.google.com/macros/s/AKfycbx4ZCK1l1cNu0FmyHw1InEsz2v_U3OLoOBqebPXPZHKAAoyn2KM_gQOSS4wxlI01Bc/exec";
 
 async function donate() {
   const name = document.getElementById("donator").value.trim();
