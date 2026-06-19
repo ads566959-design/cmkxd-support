@@ -45,7 +45,7 @@ async function loadGoal() {
     const data = await res.json();
 
     const current = Number(data.current || 0);
-    const goal = Number(data.goal || 3000);
+    const goal = Number(data.goal || 2000);
 
     document.getElementById("goalText").innerText = `${current} / ${goal} บาท`;
 
