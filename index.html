@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>CMK-XD Donate</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="logo">×CMK-XD×</div>
+
+<div class="subtitle">
+🩵😸 สนับสนุน CMK-XD ได้ที่นี่ 😸🩵
+</div>
+
+<div class="qr">
+<img src="wallet.png" alt="QR Donate">
+</div>
+
+<div class="goal-box">
+
+<h3>🎯 เป้าหมายการสนับสนุน 🎯</h3>
+
+<p id="goalText">กำลังโหลด...</p>
+
+<div class="progress">
+<div class="progress-bar"></div>
+</div>
+
+<div id="percentText">0%</div>
+
+</div>
+
+<input
+id="donator"
+placeholder="ชื่อผู้โดเนตค่าขนม">
+
+<input
+id="amount"
+type="number"
+placeholder="จำนวนค่าขนม">
+
+<button onclick="donate()">
+🎁😸 แจ้งโดเนต 😸🎁
+</button>
+
+<div id="alert" class="alert"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
